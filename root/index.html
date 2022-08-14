@@ -14,10 +14,19 @@
 
         <img src="./img/logo-ar 2.png" alt="icono de la pagina con la iniciales de Adriel Roldan en morado">
 
+        <nav>
+            <ul type="none">
+                <li>Inicio</li>
+                <li>Sobre mi</li>
+                <li>Portafolio</li>
+                <li>Skills</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+
         <h1>
-            Hola,
-            Soy Adriel Roldan
-            Bienvenido a mi
+            Hola, Soy Adriel Roldan<br>
+            Bienvenido a mi<br>
             Mundo.
         </h1>
 
@@ -32,8 +41,11 @@
         </h2>
 
         <p>
-            Soy programador web, estudio la carrera de programador Full Stack en el programa Certified Tech Developer de Digital House. 
-            Me considero una persona apasionada y activa a la hora de crear y aprender sobre el mundo de la programación y la creacion de sitios web útiles y significativos para el usuario. 
+            Soy programador web, estudio la carrera de programador Full Stack <br> 
+            en el programa Certified Tech Developer de Digital House. <br> 
+            Me considero una persona apasionada y activa a la hora de crear y <br>
+            aprender sobre el mundo de la programación <br> 
+            y la creacion de sitios web útiles y significativos para el usuario. 
         </p>
 
         <ul type="none">
@@ -70,10 +82,18 @@
         </h2>
 
         <ul type="none">
-            <li>HTML 70%</li>
-            <li>CSS 60%</li>
-            <li>JavaScript 40%</li>
-            <li>SQL 40%</li>
+            <i class="fa-brands fa-html5"></i>
+            <li>HTML5</li>
+        </ul>
+
+        <ul type="none">
+            <i class="fa-brands fa-css3-alt"></i>
+            <li>CSS3</li>
+        </ul>
+        
+        <ul type="none">
+            <i class="fa-brands fa-square-js"></i>
+            <li>JAVASCRIPT</li>
         </ul>
 
        <!-- AREA FORMULARIO -->
@@ -82,9 +102,30 @@
         Contactame
        </h2>
 
-       <!-- ACA VA EL FORMULARIO (averiguar como hacerlo) -->
 
-       <button>Contactarme</button>
+       <form action="contact" method="POST">
+
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido">
+        </div>
+ 
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="mensaje">Mensaje</label>
+            <textarea name="textarea" rows="5" cols="30"></textarea>
+        <div>
+
+            <button>Contactarme</button>
+
+       </form>
 
     </main>
 
