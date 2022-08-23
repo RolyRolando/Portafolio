@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#barra-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(32, 33, 36, 0);
+}
+
+.ul-nav{
+    display: none;
+}
+
+input:checked ~ ul{
+    display: block;
+}
+
+input{
+    display: none;
+}
+
+#hamburguesa{
+    padding-top: 3.5%;
+    color: rgb(114, 0, 218)
+}
+
+header{
+    width: 23.438rem;
+    height: 50.75rem;
+    background-image: url(../img/Foto-prueba-portfolio\ 5.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+/*EMPEZAR A USAR VW Y VH*/
